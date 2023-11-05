@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+/* body  */
+
+body {
+
+    background-color: ivory;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* paragraph */
+
+p {
+    text-align: start;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.reddit {
+    color: coral;
+}
+
+
+/* header */
+
+body header h1 {
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    
+  
+}
+
+/* h1 , h2, h3 */
+
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(73, 124, 175);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* nav ul */
+
+
+nav > ul{
+    border: black;
+    list-style: none;
+    text-align: center;
+    padding-right: 10%;
+}
+
+
+body nav ul a {
+    color:dodgerblue;
+    list-style: none;
+
+
+}
+
+/* hover text Nav change  */
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(64, 210, 255);
+    text-decoration: underline;
+}
+
+
+
+/* sections */
+
+
+.education {    
+    font-size: large;
+    background: rgb(236, 235, 202);
+    color: black;
+    padding: 10px; 
+}
+
+.freetime {
+    background: rgb(236, 235, 202);    
+
+}
+
+/* footer */
+
+footer {
+ color: rgba(0, 0, 0, 0.427);
+ font-style: italic;
+
+}
+
+/* links */
+
+
+
